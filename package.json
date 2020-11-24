@@ -1,0 +1,49 @@
+{
+  "name": "nft-gallerist-dapp",
+  "version": "1.0.0",
+  "description": "My awesome Nuxt.js project",
+  "author": "Tobias Thiele",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nuxt",
+    "build": "NODE_ENV=production nuxt build",
+    "start": "NODE_ENV=production nuxt start",
+    "generate": "NODE_ENV=production nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/ngrok": "^1.2.8",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/svg": "^0.1.11",
+    "@nuxtjs/toast": "^3.3.0",
+    "@portis/web3": "^2.0.0-beta.55",
+    "@walletconnect/web3-provider": "^1.0.0-beta.47",
+    "clipboard": "^2.0.6",
+    "file-type": "^14.7.1",
+    "fs": "^0.0.1-security",
+    "image-size": "^0.8.3",
+    "lodash": "^4.17.15",
+    "moment": "^2.26.0",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.0.0",
+    "opensea-js": "^1.1.5",
+    "sass-loader": "^8.0.2",
+    "v-photoswipe": "^1.0.3-1",
+    "vue-light-gallery": "^1.0.1",
+    "vue-masonry": "^0.11.8",
+    "vue-nestable": "^2.5.3",
+    "vue-picture-swipe": "^1.2.0",
+    "vue-sliding-pagination": "^1.1.0",
+    "vue-social-sharing": "^3.0.0-beta.11",
+    "vuedraggable": "^2.23.2",
+    "vuejs-datatable": "^2.0.0-alpha.7",
+    "vuejs-dialog": "^1.4.1",
+    "web3": "^1.2.8",
+    "web3modal": "^1.7.0"
+  },
+  "devDependencies": {
+    "@babel/runtime-corejs3": "^7.9.6",
+    "core-js": "3"
+  }
+}

@@ -1,0 +1,22 @@
+.c-sliding-pagination__list {
+	.c-sliding-pagination__list-element {
+		background-color: #222;
+		padding: 0;
+		height: unset;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+
+		a {
+			padding: .6em;
+
+			&:hover, &:focus {
+				color: white;
+			}
+		}
+	}
+
+	.c-sliding-pagination__list-element--active {
+		background-color: #04ABF3 !important;
+	}
+}

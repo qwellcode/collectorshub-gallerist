@@ -1,0 +1,39 @@
+.dg-container {
+	.dg-main-content {
+		border-radius: 0;
+		background-color: #333;
+		color: white;
+
+		.dg-content-body {
+			border-bottom: none;
+		}
+
+		.dg-btn {
+			border-radius: 0;
+			border: 0;
+			color: black;
+			text-transform: uppercase;
+			font-weight: bold;
+
+			&.dg-btn--cancel {
+				background-color: var(--primary);
+			}
+
+			&.dg-btn--cancel {
+				background-color: #dc3545;
+
+				&:hover {
+					background-color: #bd2130;
+				}
+			}
+
+			&.dg-btn--ok {
+				background-color: #28a745;
+
+				&:hover {
+					background-color: #218838;
+				}
+			}
+		}
+	}
+}
